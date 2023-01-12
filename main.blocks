@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="IP,?YBYZtHsX4*id)2IU">Dado</variable></variables><block type="pxt-on-start" id="B[,{GVZgt7jNe,qwF*?s" x="7" y="-228"><statement name="HANDLER"><block type="basic_show_icon" id="Z[-^)Tte4SyVrA^8q6c_"><field name="i">IconNames.Square</field><next><block type="variables_set" id="=saZ-|ZNULPQj)k*dF+i"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field><value name="VALUE"><shadow type="math_number" id="-e%_f6Rm?2G,#P@%v.qX"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="to02tmA,ktVKz].LWsRH" x="303" y="-178"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_change" id="eGb:FP_5oU*[G:Y}cUE:"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="device_random" id="Ww;):aC^me4Gav_momjT"><value name="min"><shadow type="math_number" id="e*Bnhu3%#~g7/|WaZxTd"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="9!3v1%5,HEs(3@VrnEs$"><field name="NUM">6</field></shadow></value></block></value></block></statement></block><block type="device_forever" id="8O#!iRDinli?y0JUPpf4" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="?k7|ReRX!$`frQ8_lDX;"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="WyILov01!zp8TOR|0dAt"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=").De5_?`e~1Zh}#5,~@e"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field></block></value><value name="B"><shadow type="math_number" id="!VvQ]=X8Igc((#u[8VvK"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="3+gmUa^hqO2$Cv0@jhgl"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="Wzh/UUvG(sX3y?1v9#IJ"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Oi)E}lGd,6{%dO?h@h8h"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="SnP.jTq)4=-`?Pc4mmoD"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field></block></value><value name="B"><shadow type="math_number" id="ajJE]iQb2.3:|,Pk#9,w"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="`H!tT.8y#%Np|G?cxyw!"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="|L.p$/U(;GePWtHCk.pm"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=".i9J#T.Jd^?5y`j4C?dz"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="3p;aFzD7G}XcV3sI@A;6"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field></block></value><value name="B"><shadow type="math_number" id=":LGtVxY*rw_q0K/[0n-P"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="2E[RmfMs-7G@W,v1=|eh"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="dAqSfs@lk%S*y`nmIzPj"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Px1_-aYS;JaACN,i7fUY"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="kIA)UM*T!$hhh}z3(r5-"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field></block></value><value name="B"><shadow type="math_number" id="jE|iYXD+?T8lt)b4Hi)8"><field name="NUM">4</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="yyt=pK`^OXwqv-]#3fnP"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id=":6@Qs|?PPjsYihN68%[K"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="M;-Yw*xP~Td=Vk,[`zb4"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="qpSg{gP5PXl.$2QfH229"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field></block></value><value name="B"><shadow type="math_number" id="l=hIm-4RyM#dx2gjflsa"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="yI-wR^q`+1D(vxm%Q!F,"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="=ie94R~k1Ylj6sI]hNi,"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="YgMclYFEIlO;~(,Ic+GE"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="W~j`KhPT3:79EU/,Q=S9"><field name="VAR" id="IP,?YBYZtHsX4*id)2IU">Dado</field></block></value><value name="B"><shadow type="math_number" id="x#jK(1=,}~#nHOjJ1+FB"><field name="NUM">6</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="6nbd_h%$BP_7p;6uuME8"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
