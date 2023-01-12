@@ -1,9 +1,10 @@
-input.onGesture(Gesture.Shake, function () {
-    Dado += randint(1, 6)
-})
-basic.showIcon(IconNames.Square)
 let Dado = 0
+basic.showIcon(IconNames.Square)
+Dado += 0
 basic.forever(function () {
+    if (input.buttonIsPressed(Button.A)) {
+        Dado += randint(1, 6)
+    }
     if (Dado == 1) {
         basic.showLeds(`
             . . . . .
